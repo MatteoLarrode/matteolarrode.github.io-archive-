@@ -7,7 +7,7 @@ function App() {
       <h1>Matteo Larrode</h1>
       <h2>Welcome to my website</h2>
       <h3>start scrolling!</h3>
-      wow
+      <h3>TEEEST</h3>
       <img src={profileImage} alt="Profile Image" />
     </div>
   );
