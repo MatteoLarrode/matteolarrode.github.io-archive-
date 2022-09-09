@@ -1,4 +1,14 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff; 
+}
+
+.App {
+  text-align: center;
+}
+
 body {
+  display: flex;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,5 +24,21 @@ code {
 }
 
 h1 {
-  color: white;
+  color: white
+}
+
+h3 {
+  color: red;
+}
+
+.blackHeader {
+  color: black
+}
+
+.skillBox {
+  text-align: right;
+}
+
+.toolBox {
+  text-align: left
 }
