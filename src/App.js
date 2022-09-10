@@ -1,67 +1,64 @@
 import profileImage from './img/profile.png';
 import sunrise_bg from './img/sunrise.jpeg';
-import blackTowhite from './img/blacktowhite.png';
+import smoke from './img/blacktowhite.png';
+
+import './styles.css';
 
 import{Parallax, ParallaxLayer} from '@react-spring/parallax';
 
 function App() {
   return (
     <div className="App">
-      <Parallax pages={5}>
+      <Parallax pages={6}>
 
         {/* background images */}
         <ParallaxLayer 
           offset={0}
-          speed={1.2}
+          speed={1}
           factor={2}
           style={{
             backgroundImage: `url(${sunrise_bg})`,
-            backgroundSize: 'cover',
+            backgroundSize: 'cover'
           }}
         />
 
         <ParallaxLayer 
-          offset={1.6}
+          offset={1}
           speed={1}
           factor={2}
           style={{
-            backgroundImage: `url(${blackTowhite})`,
-            backgroundSize: 'cover',
+            backgroundColor: 'black'
           }}
         />
 
         <ParallaxLayer 
-          offset={2.5}
-          speed={1}
-          factor={2}
+          offset={1.9}
+          speed={1.5}
+          factor={5.2}
           style={{
-            backgroundColor: 'white'
+            backgroundImage: `url(${smoke})`,
+            backgroundSize: 'cover',
           }}
         />
+ 
 
         {/* sticky layers */}
-        <ParallaxLayer 
-          sticky={{ start: 1.5, end: 5}} 
-          speed={-0.5}
-          className = 'skillBox'>
-          <h3>Skills</h3>
+        <ParallaxLayer
+          sticky={{start: 1, end: 4.3}}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}}>
+            <div className='sticky skillsCard'>
+              <p>SKILLS</p>
+            </div>
         </ParallaxLayer>
 
-        <ParallaxLayer 
-          sticky={{ start: 2.5, end: 5}} 
-          speed={-0.5}
-          className = 'toolBox'>
-          <h3>Tool Box</h3>
-        </ParallaxLayer>
 
-        <ParallaxLayer 
-          offset={2.5}
-          speed={1}
-          factor={1.5}
-          style={{
-            backgroundColor: 'white'
-          }}
-        />
+        <ParallaxLayer
+          sticky={{start: 2, end: 4.5}}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
+            <div className='sticky toolboxCard'>
+              <p>TOOL BOX</p>
+            </div>
+        </ParallaxLayer>
 
 
 
@@ -81,13 +78,15 @@ function App() {
           <h1>Undergrad: First Year</h1>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3} style={{backgroundColor:'white'}}>
+        <ParallaxLayer offset={3}>
           <h1 className='blackHeader'> Undergrad: Second Year</h1>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={4} style={{backgroundColor:'white'}}>
+        <ParallaxLayer offset={4}>
           <h1 className='blackHeader'> Undergrad: Year Abroad</h1>
         </ParallaxLayer>
+
+        
         
       </Parallax>
     </div>
