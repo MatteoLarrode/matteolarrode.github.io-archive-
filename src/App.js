@@ -13,9 +13,10 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-
+      <Navbar/>
+      
       <Parallax ref={ref} pages={6}>
+        
         {/* background images */}
         <ParallaxLayer 
           offset={0}

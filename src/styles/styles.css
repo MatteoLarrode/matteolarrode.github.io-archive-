@@ -1,3 +1,12 @@
+:root {
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+  z-index: 0;
+}
+
 body {
     display: flex;
     margin: 0;
