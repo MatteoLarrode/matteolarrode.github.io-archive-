@@ -2,7 +2,8 @@ import profileImage from './img/profile.png';
 import sunrise_bg from './img/sunrise.jpeg';
 import smoke from './img/blacktowhite.png';
 
-import './styles.css';
+import Navbar from "./components/Navbar";
+import './styles/styles.css';
 
 import{Parallax, ParallaxLayer} from '@react-spring/parallax';
 import { useRef } from 'react';
@@ -12,8 +13,9 @@ function App() {
 
   return (
     <div className="App">
-      <Parallax ref={ref} pages={6}>
+      <Navbar />
 
+      <Parallax ref={ref} pages={6}>
         {/* background images */}
         <ParallaxLayer 
           offset={0}

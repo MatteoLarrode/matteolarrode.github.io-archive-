@@ -1,9 +1,18 @@
 :root {
 }
 
+#root{
+  width: 100%;
+}
+
 .App {
   text-align: center;
   background-color: white;
 }
 
-
+.container {
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+}
