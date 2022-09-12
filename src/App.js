@@ -5,11 +5,14 @@ import smoke from './img/blacktowhite.png';
 import './styles.css';
 
 import{Parallax, ParallaxLayer} from '@react-spring/parallax';
+import { useRef } from 'react';
 
 function App() {
+  const ref = useRef();
+
   return (
     <div className="App">
-      <Parallax pages={6}>
+      <Parallax ref={ref} pages={6}>
 
         {/* background images */}
         <ParallaxLayer 
@@ -63,31 +66,42 @@ function App() {
 
 
         {/* timeline */}
-        <ParallaxLayer offset={0}>
+        <ParallaxLayer 
+          offset={0}
+          onClick={() => ref.current.scrollTo(1)}
+          >
             <h1>Matteo Larrode</h1>
             <h1>Welcome to my website</h1>
             <h2>start scrolling!</h2>
             <img src={profileImage} alt="Profile" width="300" height= "auto" />
         </ParallaxLayer>
           
-        <ParallaxLayer offset={1}>
+        <ParallaxLayer 
+          offset={1}
+          onClick={() => ref.current.scrollTo(2)}
+          >
             <h1>High School</h1>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2}>
-          <h1>Undergrad: First Year</h1>
+        <ParallaxLayer 
+          offset={2}
+          onClick={() => ref.current.scrollTo(3)}>
+            <h1>Undergrad: First Year</h1>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3}>
-          <h1 className='blackHeader'> Undergrad: Second Year</h1>
+        <ParallaxLayer 
+          offset={3}
+          onClick={() => ref.current.scrollTo(4)}
+          >
+            <h1 className='blackHeader'> Undergrad: Second Year</h1>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={4}>
-          <h1 className='blackHeader'> Undergrad: Year Abroad</h1>
+        <ParallaxLayer 
+          offset={4}
+          onClick={() => ref.current.scrollTo(0)}
+          >
+            <h1 className='blackHeader'> Undergrad: Year Abroad</h1>
         </ParallaxLayer>
-
-        
-        
       </Parallax>
     </div>
   );
