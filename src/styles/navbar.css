@@ -1,25 +1,14 @@
 .navigation {
     height: 40px;
-    width: 100%;
+    width: 98%;
     display: flex;
-    align-items: center;
+    justify-content: right;
     padding: 0.5rem 0rem;
     color: black;
     position: fixed;
     top: 0;
     z-index: 10;
   }
-
-.brand-name {
-text-decoration: none;
-color: black;
-font-size: 1.3rem;
-margin-left: 1rem;
-}
-
-.navigation-menu {
-margin-left: auto;
-}
 
 .navigation-menu ul {
     display: flex;
@@ -30,8 +19,27 @@ margin-left: auto;
     margin: 0 1rem;
 }
 .navigation-menu li a {
-    text-decoration: none;
     display: block;
     width: 100%;
+}
+
+.button{
+    background-color: white;
+    border: none;
+    color: white;
     color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+#btn-navbar{
+
+}
+
+#btn-resume{
+
 }

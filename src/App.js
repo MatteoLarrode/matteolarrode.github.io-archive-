@@ -1,6 +1,7 @@
-import profileImage from './img/profile.png';
+import profilePic from './img/profile.png'
 import sunrise_bg from './img/sunrise.jpeg';
 import smoke from './img/blacktowhite.png';
+import downScrollArrow from './img/icons-down-button-50.png'
 
 import Navbar from "./components/Navbar";
 import './styles/styles.css';
@@ -14,8 +15,8 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      
-      <Parallax ref={ref} pages={6}>
+
+      <Parallax ref={ref} pages={5}>
         
         {/* background images */}
         <ParallaxLayer 
@@ -72,38 +73,57 @@ function App() {
         <ParallaxLayer 
           offset={0}
           onClick={() => ref.current.scrollTo(1)}
-          >
-            <h1>Matteo Larrode</h1>
-            <h1>Welcome to my website</h1>
-            <h2>start scrolling!</h2>
-            <img src={profileImage} alt="Profile" width="300" height= "auto" />
+          className="home-page">
+            <div className='home-title'>
+              <div className='page-title-white'> Welcome to my website </div>
+            </div>
+
+            <div className='home-card'>
+              <img 
+                src={profilePic} 
+                alt="Profile" 
+                width="175px" 
+                height= "auto"
+                style={{padding:'1rem'}} />
+              <div className='home-name'>
+                <p>I am</p>
+                <p>MATTEO</p>
+                <p>LARRODE</p>
+              </div>
+            </div>
+
+            <div className='home-role'>
+              Student | Aspiring Data Analyst and Social Researcher
+            </div>
+
+            <div className='home-arrow'>
+              Click or scroll to discover more about my data science journey
+            </div>
+            <img src={downScrollArrow} alt="Scroll Down Arrow" width="30"/>
         </ParallaxLayer>
           
         <ParallaxLayer 
           offset={1}
-          onClick={() => ref.current.scrollTo(2)}
-          >
-            <h1>High School</h1>
+          onClick={() => ref.current.scrollTo(2)}>
+            <div className='page-title-white'>High School</div>
         </ParallaxLayer>
 
         <ParallaxLayer 
           offset={2}
           onClick={() => ref.current.scrollTo(3)}>
-            <h1>Undergrad: First Year</h1>
+            <div className='page-title-white'>Undergrad: First Year</div>
         </ParallaxLayer>
 
         <ParallaxLayer 
           offset={3}
-          onClick={() => ref.current.scrollTo(4)}
-          >
-            <h1 className='blackHeader'> Undergrad: Second Year</h1>
+          onClick={() => ref.current.scrollTo(4)}>
+            <div className='page-title-black'> Undergrad: Second Year </div>
         </ParallaxLayer>
 
         <ParallaxLayer 
           offset={4}
-          onClick={() => ref.current.scrollTo(0)}
-          >
-            <h1 className='blackHeader'> Undergrad: Year Abroad</h1>
+          onClick={() => ref.current.scrollTo(0)}>
+            <div className='page-title-black'> Undergrad: Year Abroad </div>
         </ParallaxLayer>
       </Parallax>
     </div>

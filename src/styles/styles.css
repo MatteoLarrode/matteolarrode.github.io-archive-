@@ -2,9 +2,7 @@
 }
 
 .App {
-  text-align: center;
   background-color: white;
-  z-index: 0;
 }
 
 body {
@@ -16,33 +14,75 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+.home-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title{
+  padding-bottom: 8rem;
+}
+
+.home-card{
+  width: 30rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 60px;
+  background-color: white;
+}
+
+.home-name{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.home-role{
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.home-arrow{
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
   
-  .sticky {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20rem;
-    width: 15%;
-    text-align: center;
-    border-radius: 10px;
-  }
-  
-  .toolboxCard{
-    background-color: #ff6d6d;
-  }
-  
-  .skillsCard {
-    background-color: #ff6d6d;
-  }
-  
-  h1 {
-    color: white
-  }
-  
-  p {
-    color: black
-  }
-  
-  .blackHeader {
-    color: black
-  }
+.sticky {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 15%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.toolboxCard{
+  background-color: #ff6d6d;
+}
+
+.skillsCard {
+  background-color: #ff6d6d;
+}
+
+.page-title-white{
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.page-title-black{
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  padding-top: 2rem;
+}
