@@ -75,7 +75,7 @@ function App() {
           onClick={() => ref.current.scrollTo(1)}
           className="home-page">
             <div className='home-title'>
-              <div className='page-title-white'> Welcome to my website </div>
+              <div className='page-title-white'> Welcome to my website! </div>
             </div>
 
             <div className='home-card'>
