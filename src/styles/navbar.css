@@ -26,7 +26,6 @@
 .button{
     background-color: white;
     border: none;
-    color: white;
     color: black;
     padding: 5px 10px;
     text-align: center;
@@ -37,9 +36,9 @@
 }
 
 #btn-navbar{
-
 }
 
 #btn-resume{
-
+    background-color: black;
+    color: white;
 }

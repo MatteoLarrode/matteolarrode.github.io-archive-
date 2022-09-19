@@ -51,19 +51,98 @@ function App() {
 
         {/* sticky layers */}
         <ParallaxLayer
-          sticky={{start: 1, end: 4.3}}
+          sticky={{start: 1, end: 3.8}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}}>
             <div className='sticky skillsCard'>
               <p>SKILLS</p>
             </div>
         </ParallaxLayer>
 
+        <ParallaxLayer
+          sticky={{start: 1., end: 3.8}}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}}>
+            <div>
+              <ul className='skillHS'>
+                <li>Teamwork</li>
+                <li>Time Management</li>
+                <li>Leadership</li>
+              </ul>
+            </div>
+        </ParallaxLayer>
 
         <ParallaxLayer
-          sticky={{start: 2, end: 4.5}}
+          sticky={{start: 1.9, end: 3.8}}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}}>
+            <div>
+              <ul className='skill1'>
+                <li>Writing</li>
+                <li>Communication</li>
+                <li>Creative thinking</li>
+              </ul>
+            </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          sticky={{start: 2.9, end: 3.8}}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}}>
+            <div>
+              <ul className='skill2'>
+                <li>Independence</li>
+                <li>Self-motivation</li>
+              </ul>
+            </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          sticky={{start: 3.9, end: 3.9}}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}}>
+            <div>
+              <ul className='skill3'>
+                <li>Problem solving</li>
+                <li>Networking</li>
+              </ul>
+            </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          sticky={{start: 2, end: 3.9}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
             <div className='sticky toolboxCard'>
               <p>TOOL BOX</p>
+            </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          sticky={{start: 1.9, end: 3.8}}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
+            <div>
+              <ul className='tools1'>
+                <li>Writing</li>
+                <li>Communication</li>
+                <li>Creative thinking</li>
+              </ul>
+            </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          sticky={{start: 2.9, end: 3.8}}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
+            <div>
+              <ul className='tools2'>
+                <li>Independence</li>
+                <li>Self-motivation</li>
+              </ul>
+            </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          sticky={{start: 3.9, end: 3.9}}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
+            <div>
+              <ul className='tools3'>
+                <li>Problem solving</li>
+                <li>Networking</li>
+              </ul>
             </div>
         </ParallaxLayer>
 
