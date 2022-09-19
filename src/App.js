@@ -113,35 +113,39 @@ function App() {
         </ParallaxLayer>
 
         <ParallaxLayer
-          sticky={{start: 1.9, end: 3.8}}
+          sticky={{start: 2.1, end: 3.9}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
             <div>
               <ul className='tools1'>
-                <li>Writing</li>
-                <li>Communication</li>
-                <li>Creative thinking</li>
+                <li>Excel</li>
+                <li>Word Processors</li>
               </ul>
             </div>
         </ParallaxLayer>
 
         <ParallaxLayer
-          sticky={{start: 2.9, end: 3.8}}
+          sticky={{start: 2.9, end: 3.9}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
             <div>
               <ul className='tools2'>
-                <li>Independence</li>
-                <li>Self-motivation</li>
+                <li>HTML/CSS/JavaScript</li>
+                <li>RStudio</li>
+                <li>Linear Regression</li>
               </ul>
             </div>
         </ParallaxLayer>
 
         <ParallaxLayer
-          sticky={{start: 3.9, end: 3.9}}
+          sticky={{start: 3.7, end: 3.9}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
             <div>
               <ul className='tools3'>
-                <li>Problem solving</li>
-                <li>Networking</li>
+                <li>NPL</li>
+                <li>Machine Learning</li>
+                <li>VS Code</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>SQL</li>
               </ul>
             </div>
         </ParallaxLayer>

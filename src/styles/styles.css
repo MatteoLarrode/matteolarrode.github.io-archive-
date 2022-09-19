@@ -64,7 +64,7 @@ body {
 }
 
 .toolboxCard{
-  background-color: #ff6d6d;
+  background-color: #a1f599;
 }
 
 .skillsCard {
@@ -89,6 +89,21 @@ body {
 .skill3{
   margin-right: 5.2rem;
   padding-top: 2.5rem;
+}
+
+.tools1{
+  margin-left: 1rem;
+  padding-bottom: 11rem;
+}
+
+.tools2{
+  margin-left: 1rem;
+  padding-bottom: 3.6rem;
+}
+
+.tools3{
+  margin-left: 1rem;
+  padding-top: 9.2rem;
 }
 
 .page-title-white{
