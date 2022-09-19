@@ -2,6 +2,7 @@ import profilePic from './img/profile.png'
 import sunrise_bg from './img/sunrise.jpeg';
 import smoke from './img/blacktowhite.png';
 import downScrollArrow from './img/icons-down-button-50.png'
+import white_bg from './img/white-bg5.jpg'
 
 import Navbar from "./components/Navbar";
 import './styles/styles.css';
@@ -21,8 +22,8 @@ function App() {
         {/* background images */}
         <ParallaxLayer 
           offset={0}
-          speed={1}
-          factor={2}
+          speed={1.5}
+          factor={4}
           style={{
             backgroundImage: `url(${sunrise_bg})`,
             backgroundSize: 'cover'
@@ -30,20 +31,23 @@ function App() {
         />
 
         <ParallaxLayer 
-          offset={1}
-          speed={1}
-          factor={2}
+          offset={1.99}
+          speed={1.5}
+          factor={5.2}
           style={{
-            backgroundColor: 'black'
+            backgroundPositionY: 'center',
+            backgroundImage: `url(${smoke})`,
+            backgroundSize: 'cover',
           }}
         />
 
         <ParallaxLayer 
-          offset={1.9}
-          speed={1.5}
-          factor={5.2}
+          offset={3.99}
+          speed={2}
+          factor={4}
           style={{
-            backgroundImage: `url(${smoke})`,
+            backgroundPosition: 'center',
+            backgroundImage: `url(${white_bg})`,
             backgroundSize: 'cover',
           }}
         />
