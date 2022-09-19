@@ -155,8 +155,7 @@ function App() {
         </ParallaxLayer>
 
 
-
-        {/* timeline */}
+        {/* timeline outline */}
         <ParallaxLayer 
           offset={0}
           onClick={() => ref.current.scrollTo(1)}
@@ -213,6 +212,14 @@ function App() {
             <div className='page-title-black'> Undergrad: Year Abroad </div>
         </ParallaxLayer>
       </Parallax>
+
+      {/* timeline text */}
+      <ParallaxLayer 
+          offset={1}>
+            <div>
+              Youth for Climate Initiative
+            </div>
+      </ParallaxLayer>
     </div>
   );
 }
