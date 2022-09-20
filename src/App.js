@@ -51,7 +51,6 @@ function App() {
             backgroundSize: 'cover',
           }}
         />
- 
 
         {/* sticky layers */}
         <ParallaxLayer
