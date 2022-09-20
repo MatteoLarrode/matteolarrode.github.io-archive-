@@ -211,15 +211,94 @@ function App() {
           onClick={() => ref.current.scrollTo(0)}>
             <div className='page-title-black'> Undergrad: Year Abroad </div>
         </ParallaxLayer>
-      </Parallax>
 
-      {/* timeline text */}
-      <ParallaxLayer 
-          offset={1}>
-            <div>
-              Youth for Climate Initiative
+        {/* timeline activities */}
+        <ParallaxLayer 
+          offset={1.2}
+          speed={0.7}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+            <div className='activityCard'>
+              <p>
+                Youth for Climate
+              </p>
             </div>
-      </ParallaxLayer>
+            <div className='activityCard'>
+              <p>
+                Sports
+              </p>
+            </div>
+            <div className='activityCard'>
+              <p>
+                Young Ambassador UNICEF
+              </p>
+            </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer 
+          offset={2.1}
+          speed={0.7}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+            <div className='activityCard'>
+              <p>
+                Moving to London
+              </p>
+            </div>
+            <div className='activityCard'>
+              <p>
+                First Year of University: <br/>
+                birth of a passion
+              </p>
+            </div>
+            <div className='activityCard'>
+              <p>
+                United Nations Association
+              </p>
+            </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer 
+          offset={3}
+          speed={0.7}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+            <div className='activityCardblack'>
+              <p>
+                Second Year of University: <br/>
+                the confirmation
+              </p>
+            </div>
+            <div className='activityCard'>
+              <p>
+                First Data Analysis projects
+              </p>
+            </div>
+            <div className='activityCardblack'>
+              <p>
+                United Nations Association
+              </p>
+            </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer 
+          offset={4}
+          speed={0.7}
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+            <div className='activityCard'>
+              <p>
+                Moving to Washington DC
+              </p>
+            </div>
+            <div className='activityCardblack'>
+              <p>
+                CS50x
+              </p>
+            </div>
+            <div className='activityCard'>
+              <p>
+                More projects
+              </p>
+            </div>
+        </ParallaxLayer>
+      </Parallax>
     </div>
   );
 }
