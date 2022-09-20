@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.19814133.css",
-    "main.js": "/static/js/main.d68e3d9d.js",
+    "main.css": "/static/css/main.bdcb115a.css",
+    "main.js": "/static/js/main.b214c7f6.js",
     "static/media/sunrise.jpeg": "/static/media/sunrise.c0c80d67ccd654b73755.jpeg",
     "static/media/profile.png": "/static/media/profile.764e7e2fb83cf6f0d85c.png",
-    "static/media/blacktowhite.png": "/static/media/blacktowhite.21d39ae079f0e4d158f1.png",
+    "static/media/blacktowhite.png": "/static/media/blacktowhite.af4731808112cba71287.png",
+    "static/media/white-bg5.jpg": "/static/media/white-bg5.d656845de86e06a9c753.jpg",
+    "static/media/Resume_MatteoLarrode.pdf": "/static/media/Resume_MatteoLarrode.9981cda0083ed7ee9ef8.pdf",
     "index.html": "/index.html",
-    "main.19814133.css.map": "/static/css/main.19814133.css.map",
-    "main.d68e3d9d.js.map": "/static/js/main.d68e3d9d.js.map"
+    "main.bdcb115a.css.map": "/static/css/main.bdcb115a.css.map",
+    "main.b214c7f6.js.map": "/static/js/main.b214c7f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.19814133.css",
-    "static/js/main.d68e3d9d.js"
+    "static/css/main.bdcb115a.css",
+    "static/js/main.b214c7f6.js"
   ]
 }
