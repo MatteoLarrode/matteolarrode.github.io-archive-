@@ -35,6 +35,11 @@
     border-radius: 30px;
 }
 
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
 #btn-resume{
     background-color: black;
     color: white;

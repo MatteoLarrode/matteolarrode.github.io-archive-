@@ -50,7 +50,14 @@ body {
   font-weight: bold;
   font-size: 1rem;
 }
-  
+
+.main-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .sticky {
   display: flex;
   justify-content: center;
@@ -122,29 +129,62 @@ body {
   padding-top: 2rem;
 }
 
-.activityCard{
+.activityCardwhite{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
   height: 15rem;
   width: 15rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  text-align: center;
+  padding: 1rem;
   border-radius: 100%;
-  background-color: aliceblue;
+  background-color: white;
 }
 
 .activityCardblack{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
   height: 15rem;
   width: 15rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  text-align: center;
+  padding: 1rem;
   border-radius: 100%;
+  background-color: black;
+  color: white;
+}
+
+.caption{
+  font-size: x-small;
+}
+
+.main-text-white{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  padding: 1.5rem;
+  width: 20%;
+  border-radius: 25%;
+  text-align: center;
+  background-color: white;
+}
+
+.main-text-black{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  padding: 1.5rem;
+  width: 20%;
+  border-radius: 25%;
+  text-align: center;
   background-color: black;
   color: white;
 }
