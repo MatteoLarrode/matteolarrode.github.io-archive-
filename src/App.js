@@ -1,16 +1,15 @@
-import profilePic from './img/profile.png'
-import sunrise_bg from './img/sunrise.jpeg'
-import smoke from './img/blacktowhite.png'
-import downScrollArrow from './img/icons-down-button-50.png'
-import white_bg from './img/white-bg5.jpg'
-import proj_forecast from './img/proj_forecast.png'
-import proj_map from './img/proj_map.png'
-import proj_text from './img/proj_text.png'
-import essay_IR from './img/essay_IR.png'
-import london_move from './img/london_move.png'
-import limun from './img/limun.png'
-import washington from './img/washington.png'
-import yfc_rennes from './img/yfc_rennes.png'
+import profilePic from './assets/img/profile.png'
+import downScrollArrow from './assets/img/icons-down-button-50.png'
+import white_bg from './assets/img/white-bg5.jpg'
+import proj_forecast from './assets/img/proj_forecast.png'
+import proj_map from './assets/img/proj_map.png'
+import proj_text from './assets/img/proj_text.png'
+import essay_IR from './assets/img/essay_IR.png'
+import london_move from './assets/img/london_move.png'
+import limun from './assets/img/limun.png'
+import washington from './assets/img/washington.png'
+import yfc_rennes from './assets/img/yfc_rennes.png'
+import blue_mountains_bg from './assets/img/blue-mountains-bg.jpg'
 
 import Navbar from "./components/Navbar";
 import './styles/styles.css';
@@ -30,22 +29,11 @@ function App() {
         {/* background images */}
         <ParallaxLayer 
           offset={0}
-          speed={1.5}
-          factor={4}
+          speed={1}
+          factor={7}
           style={{
-            backgroundImage: `url(${sunrise_bg})`,
+            backgroundImage: `url(${blue_mountains_bg})`,
             backgroundSize: 'cover'
-          }}
-        />
-
-        <ParallaxLayer 
-          offset={1.99}
-          speed={1.5}
-          factor={5.2}
-          style={{
-            backgroundPositionY: 'center',
-            backgroundImage: `url(${smoke})`,
-            backgroundSize: 'cover',
           }}
         />
 
@@ -257,7 +245,7 @@ function App() {
         </ParallaxLayer>
 
         <ParallaxLayer 
-          offset={4.3}
+          offset={4.2}
           speed={0.7}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'space-evenly'}}>
             <div className='activityCardwhite'>

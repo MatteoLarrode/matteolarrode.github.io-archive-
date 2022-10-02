@@ -1,5 +1,5 @@
 import "../styles/navbar.css"
-import Pdf from "../documents/Resume_MatteoLarrode.pdf"
+import Pdf from "../assets/documents/Resume_MatteoLarrode.pdf"
 
 export default function Navbar() {
     return (
