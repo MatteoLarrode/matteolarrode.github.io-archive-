@@ -10,6 +10,8 @@ import limun from './assets/img/limun.png'
 import washington from './assets/img/washington.png'
 import yfc_rennes from './assets/img/yfc_rennes.png'
 import blue_mountains_bg from './assets/img/blue-mountains-bg.jpg'
+import football from './assets/img/football.png'
+import shakespeare from './assets/img/shakespeare.png'
 
 import Navbar from "./components/Navbar";
 import './styles/styles.css';
@@ -166,13 +168,25 @@ function App() {
               </p>
             </div>
             <div className='activityCardwhite'>
-              <p>
-                Sports
+              <img 
+                src={football} 
+                alt="Football" 
+                width="67%" 
+                height= "auto"
+                style={{padding:'1rem'}}/>
+                <p className='caption'>
+                Years of football
               </p>
             </div>
             <div className='activityCardwhite'>
-              <p>
-                Young Ambassador UNICEF
+              <img 
+                src={shakespeare} 
+                alt="Literature" 
+                width="67%" 
+                height= "auto"
+                style={{padding:'1rem'}}/>
+                <p className='caption'>
+                  Studying International Literature
               </p>
             </div>
         </ParallaxLayer>
