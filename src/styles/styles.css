@@ -1,4 +1,5 @@
-:root {
+#root{
+  width: 100%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap');
@@ -20,12 +21,12 @@ body {
   align-items: center;
 }
 
-.home-title{
-  padding-bottom: 8rem;
+#home-title{
+  padding-bottom: 7rem;
 }
 
-.home-card{
-  width: 30rem;
+#home-card{
+  width: 23rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -33,18 +34,18 @@ body {
   background-color: white;
 }
 
-.home-name{
+#home-name{
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: x-large;
 }
 
-.home-role{
+#home-role{
   padding-top: 1rem;
   font-weight: 500;
   font-size: 1.1rem;
 }
 
-.home-arrow{
+#home-arrow{
   padding-top: 10rem;
   padding-bottom: 1rem;
   font-weight: bold;
@@ -72,43 +73,45 @@ body {
 
 .toolboxCard{
   background-color: #128fc8;
+  box-shadow: 7px 7px #0c6f9c;
 }
 
 .skillsCard {
   background-color: #ffe45c;
+  box-shadow: 7px 7px #ddc54c;
 }
 
-.skillHS{
+#skillHS{
   margin-right: 4rem;
   padding-bottom: 10rem;
 }
 
-.skill1{
+#skill1{
   margin-right: 4.84rem;
   padding-bottom: 1.4rem;
 }
 
-.skill2{
+#skill2{
   margin-right: 5.63rem;
   padding-top: 6rem;
 }
 
-.skill3{
+#skill3{
   margin-right: 5.2rem;
   padding-top: 2.5rem;
 }
 
-.tools1{
+#tools1{
   margin-left: 1rem;
   padding-bottom: 11rem;
 }
 
-.tools2{
+#tools2{
   margin-left: 1rem;
   padding-bottom: 3.6rem;
 }
 
-.tools3{
+#tools3{
   margin-left: 1rem;
   padding-top: 9.2rem;
 }
@@ -164,7 +167,7 @@ body {
   font-size: x-small;
 }
 
-.main-text-white{
+.textbox-white{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,7 +179,7 @@ body {
   background-color: white;
 }
 
-.main-text-black{
+.textbox-black{
   display: flex;
   justify-content: center;
   align-items: center;

@@ -61,7 +61,7 @@ function App() {
           sticky={{start: 1., end: 3.8}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}}>
             <div>
-              <ul className='skillHS'>
+              <ul id='skillHS'>
                 <li>Teamwork</li>
                 <li>Time Management</li>
                 <li>Leadership</li>
@@ -73,7 +73,7 @@ function App() {
           sticky={{start: 1.9, end: 3.8}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}}>
             <div>
-              <ul className='skill1'>
+              <ul id='skill1'>
                 <li>Writing</li>
                 <li>Communication</li>
                 <li>Creative thinking</li>
@@ -85,7 +85,7 @@ function App() {
           sticky={{start: 2.9, end: 3.8}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}}>
             <div>
-              <ul className='skill2'>
+              <ul id='skill2'>
                 <li>Independence</li>
                 <li>Self-motivation</li>
               </ul>
@@ -96,7 +96,7 @@ function App() {
           sticky={{start: 3.9, end: 3.9}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}}>
             <div>
-              <ul className='skill3'>
+              <ul id='skill3'>
                 <li>Problem solving</li>
                 <li>Networking</li>
               </ul>
@@ -115,7 +115,7 @@ function App() {
           sticky={{start: 2.1, end: 3.9}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
             <div>
-              <ul className='tools1'>
+              <ul id='tools1'>
                 <li>Excel</li>
                 <li>Word Processors</li>
               </ul>
@@ -126,7 +126,7 @@ function App() {
           sticky={{start: 2.9, end: 3.9}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
             <div>
-              <ul className='tools2'>
+              <ul id='tools2'>
                 <li>HTML/CSS/JavaScript</li>
                 <li>RStudio</li>
                 <li>Linear Regression</li>
@@ -138,7 +138,7 @@ function App() {
           sticky={{start: 3.7, end: 3.9}}
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
             <div>
-              <ul className='tools3'>
+              <ul id='tools3'>
                 <li>NPL</li>
                 <li>Machine Learning</li>
                 <li>VS Code</li>
@@ -278,29 +278,30 @@ function App() {
           offset={0}
           onClick={() => ref.current.scrollTo(1)}
           className="home-page">
-            <div className='home-title'>
+            <div id='home-title'>
               <div className='page-title-white'> Welcome! </div>
             </div>
 
-            <div className='home-card'>
+            <div id='home-card'>
               <img 
                 src={profilePic} 
                 alt="Profile" 
                 width="175px" 
                 height= "auto"
                 style={{padding:'1rem'}} />
-              <div className='home-name'>
-                <p>I am</p>
-                <p>MATTEO</p>
-                <p>LARRODE</p>
+
+              <div id='home-name'>
+                <p style={{margin: '10px'}}> I am</p>
+                <p style={{margin: '10px'}}>MATTEO</p>
+                <p style={{margin: '10px'}}>LARRODE</p>
               </div>
             </div>
 
-            <div className='home-role'>
-              Student | Aspiring Data Analyst and Social Researcher
+            <div id='home-role'>
+              Student | Data Analyst and Social Researcher
             </div>
 
-            <div className='home-arrow'>
+            <div id='home-arrow'>
               Click or scroll to discover more about my data science journey
             </div>
             <img src={downScrollArrow} alt="Scroll Down Arrow" width="30"/>
@@ -311,12 +312,12 @@ function App() {
           onClick={() => ref.current.scrollTo(2)}>
             <div className='page-title-white'>High School</div>
             <div className="main-page">
-              <div className = 'main-text-white'>
+              <div className = 'textbox-white'>
                 Studying International Literature and American History to become proficient in English, 
                 I was opening my eyes to the opportunities that being international has to offer. 
                 I was also developing a passion for essay writing and academia.
               </div>
-              <div className = 'main-text-white'>
+              <div className = 'textbox-white'>
                 I didn’t know about data analysis and wasn’t particularly interested in coding at the time, 
                 but juggling between my football trainings, classes, and other passions taught me time management.
               </div>
@@ -328,17 +329,17 @@ function App() {
           onClick={() => ref.current.scrollTo(3)}>
             <div className='page-title-white'>Undergrad: First Year</div>
             <div className='main-page'>
-              <div className='main-text-white'>
+              <div className='textbox-white'>
                 Moving to London on my 18th birthday was the most thrilling experience of my life, 
                 it not only made me independent, but most of all triggered my desire to move around the world.
               </div>
-              <div className='main-text-white'>
+              <div className='textbox-white'>
                 Studying Politics, Philosophy and Economics, I refined my research methods, writing skills, 
                 but most importantly creative thinking to produce unique essays that I’m proud of. 
               </div>
             </div>
             <div className='main-page'>
-              <div className='main-text-black'>
+              <div className='textbox-black'>
                 I discover RStudio through my Quantitative Research module. I immediately feel the unlimited potential of using data analysis as part of 
                 my research. Finally a way to test the many theories we talk about in my political science classes, or to measure the impact of the macroeconomic policies
                 studied in my seminars.  
@@ -351,13 +352,13 @@ function App() {
           onClick={() => ref.current.scrollTo(4)}>
             <div className='page-title-black'> Undergrad: Second Year </div>
             <div className='main-page'>
-                <div className='main-text-white'>
+                <div className='textbox-white'>
                   Data Analysis quickly become my favourite module by far. I become proficient in linear regressions, and apply models to more and more types of data: texts, spatial data
                   grab my attention. My curiosity around data analysis starts to outgrow the boundaries of my curricular activities and I start taking an online computer 
                   science class, cs50x by Harvard. I am introduced to other languages: C, Python, Sequel, HTML/CSS/JavaScript. 
                 </div>
 
-                <div className='main-text-black'>
+                <div className='textbox-black'>
                   I get involved into more extracurricular activities. My favourite area of political science being international relations and organizations, 
                   I participate to activities organized by the UCL United Nations Associations. Starting as a negociation facilitator at a COP21 simulation, I work
                   my way to represent France at the LIMUN 2022 conference in the NATO Committee. 
@@ -370,17 +371,17 @@ function App() {
           onClick={() => ref.current.scrollTo(0)}>
             <div className='page-title-black'> Undergrad: Year Abroad </div>
             <div className='main-page'>
-              <div className='main-text-black'>
+              <div className='textbox-black'>
                 All those skills acquired along the way made me the aspiring data analyst that I am. My research methods developed studying politics now helps me to find the latest libraries and explore their documentation. 
                 All the efforts I put to come up with unique and new ideas in my essay shaped my creative thinking, allowing me to think outside of the box and come up with a solution for every problem that I face.
               </div>
-              <div className='main-text-white'>
+              <div className='textbox-white'>
                 My various involvement in United Nations Associations and activities boosted my confidence and my ability to speak and share my ideas.
                 My continuous practice of football (for now more than 10 years) gave me a sense of responsibility and commitment towards a common objective, and most importantly made me realize the immense value of teamwork.
               </div>
             </div>
             <div className='main-page'>
-              <div className='main-text-black'>
+              <div className='textbox-black'>
                 Most importantly, my choices to move abroad twice on my own made me more independent, self-motivated, 
                 perseverant and determined to move forward no matter the difficulties that I face. 
               </div>
