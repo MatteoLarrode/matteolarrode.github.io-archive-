@@ -1,6 +1,6 @@
 # Creation of Personal Website
 
-My website is available [here](matteolarrode.github.io).
+My website is available [here](matteolarrode.github.io). THIS IS AN ONGOING PROJECT, NOT A FINAL VERSION.
 
 
 ## Rationale
