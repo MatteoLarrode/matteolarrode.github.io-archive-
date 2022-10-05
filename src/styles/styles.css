@@ -103,12 +103,12 @@ body {
 
 #tools1{
   margin-left: 1rem;
-  padding-bottom: 11rem;
+  padding-bottom: 10rem;
 }
 
 #tools2{
   margin-left: 1rem;
-  padding-bottom: 3.6rem;
+  padding-bottom: 2rem;
 }
 
 #tools3{
@@ -171,10 +171,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin: 2rem;
   padding: 1.5rem;
   width: 20%;
-  border-radius: 25%;
   text-align: center;
   background-color: white;
 }
@@ -183,11 +183,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin: 2rem;
   padding: 1.5rem;
   width: 20%;
-  border-radius: 25%;
   text-align: center;
   background-color: black;
   color: white;
+}
+
+.textbox-title{
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#intext-skill{
+  color: #ddc54c;
+}
+
+#intext-tool{
+  color: #0c6f9c;
 }

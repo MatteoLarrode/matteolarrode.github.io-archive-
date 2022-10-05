@@ -129,9 +129,10 @@ function App() {
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
             <div>
               <ul id='tools2'>
-                <li>HTML/CSS/JavaScript</li>
-                <li>RStudio</li>
-                <li>Linear Regression</li>
+                <li>R</li>
+                <li>Regression models</li>
+                <li>Text Analysis</li>
+                <li>Data Visualization</li>
               </ul>
             </div>
         </ParallaxLayer>
@@ -141,12 +142,10 @@ function App() {
           style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
             <div>
               <ul id='tools3'>
-                <li>NPL</li>
                 <li>Machine Learning</li>
-                <li>VS Code</li>
-                <li>C</li>
                 <li>Python</li>
-                <li>SQL</li>
+                <li>HTML/CSS/JavaScript</li>
+                <li>SQL, C (novice)</li>
               </ul>
             </div>
         </ParallaxLayer>
@@ -231,7 +230,7 @@ function App() {
                 height= "auto"
                 style={{padding:'1rem'}}/>
               <p className='caption'>
-                Spatial Data Analysis
+                Spatial Data Analysis (R)
               </p>
             </div>
             <div className='activityCardblack'>
@@ -253,7 +252,7 @@ function App() {
                 height= "auto"
                 style={{padding:'1rem'}} />
               <p className='caption'>
-                Text Data Analysis
+                Text Data Analysis (R)
               </p>
             </div>
         </ParallaxLayer>
@@ -281,7 +280,7 @@ function App() {
                 height= "auto"
                 style={{padding:'1rem'}} />
               <p className='caption'>
-                Prediction of exchange rates using APIs and machine learning in Python
+                Prediction of exchange rates using APIs and machine learning in <span id="intext-tool">Python</span>
               </p>
             </div>
         </ParallaxLayer>
@@ -327,13 +326,20 @@ function App() {
             <div className='page-title-white'>High School</div>
             <div className="main-page">
               <div className = 'textbox-white'>
-                Studying International Literature and American History to become proficient in English, 
-                I was opening my eyes to the opportunities that being international has to offer. 
-                I was also developing a passion for essay writing and academia.
+                <div className = 'textbox-title'>Discovering anglo-saxon teaching</div>
+                <div>
+                  Studying International Literature and American History to become proficient in English, 
+                  I was opening my eyes to the opportunities that being international has to offer. 
+                  I was also developing a passion for essay writing and academia.
+                </div>
               </div>
               <div className = 'textbox-white'>
-                I didn’t know about data analysis and wasn’t particularly interested in coding at the time, 
-                but juggling between my football trainings, classes, and other passions taught me time management.
+                <div className = 'textbox-title'>Activities</div>
+                <div>
+                  I didn’t know about data analysis and wasn’t particularly interested in coding at the time, 
+                  but juggling between my football trainings, classes, and other passions taught me <span id="intext-skill">time management</span>.
+                  My position as a football team captain was also cultivating my inclination to <span id="intext-skill">be a leader</span>.
+                </div>
               </div>
             </div>
         </ParallaxLayer>
@@ -344,19 +350,28 @@ function App() {
             <div className='page-title-white'>Undergrad: First Year</div>
             <div className='main-page'>
               <div className='textbox-white'>
-                Moving to London on my 18th birthday was the most thrilling experience of my life, 
-                it not only made me independent, but most of all triggered my desire to move around the world.
+                <div className = 'textbox-title'>Moving to London</div>
+                <div>
+                  Moving to London on my 18th birthday was the most thrilling experience of my life, 
+                  it not only made me independent, but most of all triggered my desire to move around the world.
+                </div>
               </div>
               <div className='textbox-white'>
-                Studying Politics, Philosophy and Economics, I refined my research methods, writing skills, 
-                but most importantly creative thinking to produce unique essays that I’m proud of. 
+                <div className = 'textbox-title'>Discovering university</div>
+                <div>
+                  Studying Politics, Philosophy and Economics, I refined my <span id="intext-skill">research methods, writing skills</span>, 
+                  but most importantly <span id="intext-skill">creative thinking</span> to produce unique essays that I’m proud of. 
+                </div>
               </div>
             </div>
             <div className='main-page'>
               <div className='textbox-black'>
-                I discover RStudio through my Quantitative Research module. I immediately feel the unlimited potential of using data analysis as part of 
-                my research. Finally a way to test the many theories we talk about in my political science classes, or to measure the impact of the macroeconomic policies
-                studied in my seminars.  
+                <div className = 'textbox-title'>First steps in data analyis</div>
+                <div>
+                  I discover RStudio through my Quantitative Research module. I immediately feel the unlimited potential of using data analysis as part of 
+                  my research. Finally a way to test the many theories we talk about in my political science classes, or to measure the impact of the macroeconomic policies
+                  studied in my seminars.  
+                </div>
               </div>
             </div>
         </ParallaxLayer>
@@ -367,15 +382,22 @@ function App() {
             <div className='page-title-black'> Undergrad: Second Year </div>
             <div className='main-page'>
                 <div className='textbox-white'>
-                  Data Analysis quickly become my favourite module by far. I become proficient in linear regressions, and apply models to more and more types of data: texts, spatial data
-                  grab my attention. My curiosity around data analysis starts to outgrow the boundaries of my curricular activities and I start taking an online computer 
-                  science class, cs50x by Harvard. I am introduced to other languages: C, Python, Sequel, HTML/CSS/JavaScript. 
+                  <div className = 'textbox-title'>Flourishing interest in data analysis</div>
+                  <div>
+                    Data Analysis quickly become my favourite module by far. I become proficient in <span id="intext-tool">linear regressions with R</span>, and apply models to more and more types of data: <span id="intext-tool">texts, spatial data</span> 
+                    grab my attention. My curiosity around data analysis starts to outgrow the boundaries of my curricular activities and I start taking an online computer 
+                    science class, cs50x by Harvard. I am introduced to other languages: C, Python, Sequel, HTML/CSS/JavaScript. 
+                  </div>
                 </div>
 
                 <div className='textbox-black'>
-                  I get involved into more extracurricular activities. My favourite area of political science being international relations and organizations, 
-                  I participate to activities organized by the UCL United Nations Associations. Starting as a negociation facilitator at a COP21 simulation, I work
-                  my way to represent France at the LIMUN 2022 conference in the NATO Committee. 
+                  <div className = 'textbox-title'>Extracurricular activities</div>
+                  <div>
+                    My favourite area of political science being international relations and organizations, 
+                    I participate to activities organized by the UCL United Nations Associations. Starting as a negociation facilitator at a COP21 simulation, I work
+                    my way to represent France at the LIMUN 2022 conference in the NATO Committee. Those activities, along with my involvement in the UCL Football Club, 
+                    develop my  <span id="intext-skill">teamwork and leadership skills</span>.
+                  </div>
                 </div>
             </div>
         </ParallaxLayer>
@@ -386,18 +408,28 @@ function App() {
             <div className='page-title-black'> Undergrad: Year Abroad </div>
             <div className='main-page'>
               <div className='textbox-black'>
-                All those skills acquired along the way made me the aspiring data analyst that I am. My research methods developed studying politics now helps me to find the latest libraries and explore their documentation. 
-                All the efforts I put to come up with unique and new ideas in my essay shaped my creative thinking, allowing me to think outside of the box and come up with a solution for every problem that I face.
+                <div className = 'textbox-title'>Researcher</div>
+                <div>
+                  All those skills acquired along the way made me the aspiring data analyst that I am. 
+                  My research methods developed studying politics now helps me to find the latest libraries and explore their documentation, improving my  <span id="intext-skill">problem-solving capabilities</span>.
+                  All the efforts I put to come up with unique and new ideas in my essay shaped my  <span id="intext-skill">creative thinking</span>, allowing me to think outside of the box and come up with a solution for every problem that I face.
+                </div>
               </div>
               <div className='textbox-white'>
-                My various involvement in United Nations Associations and activities boosted my confidence and my ability to speak and share my ideas.
-                My continuous practice of football (for now more than 10 years) gave me a sense of responsibility and commitment towards a common objective, and most importantly made me realize the immense value of teamwork.
+                <div className = 'textbox-title'>Team Worker</div>
+                <div>
+                  My various involvement in United Nations Associations and activities boosted my  <span id="intext-skill">confidence and my ability to speak and share my ideas</span>.
+                  My continuous practice of football (for now more than 10 years) gave me a sense of <span id="intext-skill">responsibility and commitment</span> towards a common objective, and most importantly made me realize the immense value of teamwork.
+                </div>
               </div>
             </div>
             <div className='main-page'>
               <div className='textbox-black'>
-                Most importantly, my choices to move abroad twice on my own made me more independent, self-motivated, 
-                perseverant and determined to move forward no matter the difficulties that I face. 
+                <div className = 'textbox-title'>Adventurer</div>
+                <div>
+                  Most importantly, my choices to move abroad twice on my own made me more <span id="intext-skill">independent, self-motivated, 
+                  perseverant and determined to move forward</span> no matter the difficulties that I face. 
+                </div>
               </div>
             </div>
         </ParallaxLayer>
