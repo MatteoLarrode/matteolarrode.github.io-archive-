@@ -1,18 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.bdcb115a.css",
-    "main.js": "/static/js/main.b214c7f6.js",
-    "static/media/sunrise.jpeg": "/static/media/sunrise.c0c80d67ccd654b73755.jpeg",
+    "main.css": "/static/css/main.1d1acfc8.css",
+    "main.js": "/static/js/main.5be52381.js",
+    "static/media/washington.png": "/static/media/washington.61cc01984a5ebe4f28ff.png",
+    "static/media/shakespeare.png": "/static/media/shakespeare.58cd22742211e54e97ea.png",
+    "static/media/football.png": "/static/media/football.e5f366017ff56d5d3268.png",
+    "static/media/limun.png": "/static/media/limun.f7454d00787ba0f74767.png",
+    "static/media/london_move.png": "/static/media/london_move.6e92967180b719bc63b5.png",
     "static/media/profile.png": "/static/media/profile.764e7e2fb83cf6f0d85c.png",
-    "static/media/blacktowhite.png": "/static/media/blacktowhite.af4731808112cba71287.png",
     "static/media/white-bg5.jpg": "/static/media/white-bg5.d656845de86e06a9c753.jpg",
-    "static/media/Resume_MatteoLarrode.pdf": "/static/media/Resume_MatteoLarrode.9981cda0083ed7ee9ef8.pdf",
+    "static/media/proj_map.png": "/static/media/proj_map.9ddab319103457e8e8a0.png",
+    "static/media/proj_text.png": "/static/media/proj_text.41664c5f4c2c9acf068b.png",
+    "static/media/blue-mountains-bg.jpg": "/static/media/blue-mountains-bg.c6b31723be29f36bd377.jpg",
+    "static/media/proj_forecast.png": "/static/media/proj_forecast.5c7c2f37be07e431d5ee.png",
+    "static/media/yfc_rennes.png": "/static/media/yfc_rennes.54a70659df4abf5eba43.png",
+    "static/media/essay_IR.png": "/static/media/essay_IR.91d78bfcc14992610ab6.png",
+    "static/media/MatteoLarrode_Resume.pdf": "/static/media/MatteoLarrode_Resume.6f621e81c3acc9c7ce5a.pdf",
     "index.html": "/index.html",
-    "main.bdcb115a.css.map": "/static/css/main.bdcb115a.css.map",
-    "main.b214c7f6.js.map": "/static/js/main.b214c7f6.js.map"
+    "main.1d1acfc8.css.map": "/static/css/main.1d1acfc8.css.map",
+    "main.5be52381.js.map": "/static/js/main.5be52381.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdcb115a.css",
-    "static/js/main.b214c7f6.js"
+    "static/css/main.1d1acfc8.css",
+    "static/js/main.5be52381.js"
   ]
 }
